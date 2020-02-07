@@ -3,6 +3,6 @@ WORKDIR /src
 
 COPY . .
 
-RUN pip install -r requeriments/requirements.txt
+RUN pip install -r requirements/requirements.txt
 
 CMD [ "python", "./main.py" ]
