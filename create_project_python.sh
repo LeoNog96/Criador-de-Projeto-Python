@@ -1,7 +1,9 @@
-project=$1
-path=$2
+read -p "Digite o nome do projeto: " project
+project=${project}
+read -p "Digite o diretorio do projeto: " path
+path=${path}
 home=~/create_project
-echo 'Criando projet '${project}' com pattern repository'
+echo 'Criando projcet '${project}' com pattern repository'
 
 cd $path
 mkdir $project
