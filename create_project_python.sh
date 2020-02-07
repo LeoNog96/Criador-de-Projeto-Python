@@ -46,7 +46,7 @@ cd $project
 
 cat $home/.gitignore > .gitignore
 cat $home/Dockerfile > Dockerfile
-echo '## '${project} > README.md
+echo '# '${project} > README.md
 
 git init
 
